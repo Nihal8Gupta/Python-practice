@@ -1,3 +1,4 @@
+from collections import defaultdict
 def countPalindromicSubsequence(self, s: str) -> int:
         count = defaultdict(list)
 
